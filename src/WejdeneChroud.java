@@ -13,4 +13,5 @@ public class WejdeneChroud {
     public static boolean estPair(int n) {
         return n % 2 == 0;
     }
+
 }
