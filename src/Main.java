@@ -23,5 +23,14 @@ public class Main {
         // Partie Eyatollah
         KochbatiEyatollah k = new KochbatiEyatollah();
         k.reverseString("eyatollah");
+
+        // Partie Karima
+        HaddoudiKarima hk = new HaddoudiKarima();
+
+        double resultatRacine = hk.calculRacineCarreeX(25);
+        System.out.println("Racine carrée de 25 = " + resultatRacine);
+
+        String resultatMaj = hk.convertirEnMajuscules("bonjour karima");
+        System.out.println("En majuscules : " + resultatMaj);
     }
 }
