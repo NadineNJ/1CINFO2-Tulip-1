@@ -19,5 +19,9 @@ public class Main {
 
         System.out.println("Longueur = " + len);
         System.out.println("Concat = " + Arrays.toString(t3));
+
+        // Partie Eyatollah
+        KochbatiEyatollah k = new KochbatiEyatollah();
+        k.reverseString("eyatollah");
     }
 }
