@@ -32,5 +32,14 @@ public class Main {
 
         String resultatMaj = hk.convertirEnMajuscules("bonjour karima");
         System.out.println("En majuscules : " + resultatMaj);
+
+        // Partie Nadine
+        int[] myArray = {1, 2, 3, 4, 5};
+
+        int sum = JemaaNadine.calculateSum(myArray);
+        double avg = JemaaNadine.calculateAverage(myArray);
+
+        System.out.println("La somme du tableau est : " + sum);
+        System.out.println("La moyenne du tableau est : " + avg);
     }
 }
